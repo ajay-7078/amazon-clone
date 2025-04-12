@@ -20,8 +20,9 @@
     background-size:contain ;
     background-repeat: no-repeat; 
     align-items: center;
+    justify-content: center;
     padding-top: 50px;
-    
+    margin: 10px;
     width: 100px;
     height: 40px;
 }
@@ -246,4 +247,10 @@ text-align: center;
     .shop-section{
         flex-direction: column;
     }
+
+    .nav-address,
+    .nav-search {
+        display: none;
+    }
+
 }
